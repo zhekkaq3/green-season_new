@@ -1,0 +1,849 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+          content="Зеленый Сезон - Садовый центр - Питомник растений -">
+    <meta name="author" content="Zhekka Ivanchik">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Зелёный Сезон - Садовый центр - Питомник растений</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="../img/core-img/favicon.svg" type="image/svg">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="../css/core-style.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=18b74fc3-2813-4dbe-bcda-fcbc5da0c747&lang=ru_RU"
+            type="text/javascript">
+    </script>
+
+    <script type="text/javascript">
+        ymaps.ready(init);
+
+        function init() {
+            var myMap = new ymaps.Map("map1", {
+                    center: [56, 37.3],
+                    zoom: 11
+                },
+                {
+                    autoFitToViewport: 'always',
+                    searchControlProvider: 'yandex#search'
+                }
+            );
+
+            myMap.container.fitToViewport();
+
+
+            myGeoObject = new ymaps.GeoObject({
+                // Описание геометрии.
+                geometry: {
+                    type: "Point",
+                    coordinates: [55.974673, 37.313038]
+                },
+                // Свойства.
+                properties: {
+                    // Контент метки.
+                    iconContent: 'Мы',
+                    hintContent: 'Зеленый Сезон'
+                }
+            })
+            myMap.geoObjects
+                .add(myGeoObject)
+
+        }
+
+    </script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+
+        function init() {
+            var myMap = new ymaps.Map("map2", {
+                    center: [56.037, 35.5496],
+                    zoom: 13
+                },
+                {
+                    autoFitToViewport: 'always',
+                    searchControlProvider: 'yandex#search'
+                }
+            );
+
+            myMap.container.fitToViewport();
+
+
+            myGeoObject = new ymaps.GeoObject({
+                // Описание геометрии.
+                geometry: {
+                    type: "Point",
+                    coordinates: [56.037030, 35.552633]
+                },
+                // Свойства.
+                properties: {
+                    // Контент метки.
+                    iconContent: 'Мы',
+                    hintContent: 'Зеленый Сезон'
+                }
+            })
+            myMap.geoObjects
+                .add(myGeoObject)
+
+        }
+
+    </script>
+    <style>
+        #map1, #map2 {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+<!-- Search Wrapper Area Start -->
+<div class="search-wrapper section-padding-100">
+    <div class="search-close">
+        <i class="fa fa-close" aria-hidden="true"></i>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="search-content">
+                    <form action="#" method="get">
+                        <input type="search" name="search" id="search" placeholder="Что будем искать ?">
+                        <button type="submit"><img src="../img/core-img/search.png" alt=""></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Search Wrapper Area End -->
+
+<!-- ##### Main Content Wrapper Start ##### -->
+<div class="main-content-wrapper d-flex clearfix">
+
+    <!-- Mobile Nav (max width 767px)-->
+    <div class="mobile-nav">
+        <!-- Navbar Brand -->
+
+        <div class="amado-navbar-brand">
+            <div class="logo logo_header">
+                <img class="logo_img logo_img_header " src="../img/core-img/logo.svg" alt="logo">
+                <a href="../index.html"><span class="logo_name logo_name_header">ЗЕЛЁНЫЙ-<br>СЕЗОН</span> </a>
+            </div>
+        </div>
+        <div class="social-info d-flex justify-content-between">
+            <a class="seti" target="_blank" href="https://www.instagram.com/green_season.ru/"><i
+                    class="ffa fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="seti" target="_blank" href="https://facebook.com/greenseasonsheremetjevo/"><i
+                    class="ffa fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="seti" target="_blank" href="https://vk.com/greenseasonru"><i class="ffa fa fa-vk"
+                                                                                   aria-hidden="true"></i></a>
+        </div>
+        <!-- Navbar Toggler -->
+        <div class="amado-navbar-toggler">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <!-- Header Area Start -->
+    <header class="header-area clearfix">
+        <!-- Close Icon -->
+        <div class="nav-close">
+            <i class="fa fa-close" aria-hidden="true"></i>
+        </div>
+        <!-- Logo -->
+        <div class="logo">
+            <img class="logo_img" src="../img/core-img/logo.svg" alt="logo">
+            <a href="../index.html"><span class="logo_name">ЗЕЛЁНЫЙ-<br>СЕЗОН</span> </a>
+        </div>
+        <!--            Header info-->
+        <div>
+            <h4 class="text-black text1">Садовый центр</h4>
+            <p class="text-muted text2">
+                Режим работы: Пн-Вс: с 9:00 до 20:00
+                <br>
+                Позвоните нам: <br> +7 (495) 926-09-90</p>
+        </div>
+        <!-- Amado Nav -->
+        <nav class="amado-nav">
+            <ul>
+                <li><a class="font-weight-bold" href="../index.html">Главная</a></li>
+                <li><a class="font-weight-bold" href="../product-details.html">Оплата и доставка</a></li>
+                <li class="dropdown show">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Каталог
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item item" href="hvoynie.html">Хвойные растения</a>
+                        <a class="dropdown-item item" href="listvennie.html">Лиственные растения</a>
+                        <a class="dropdown-item item" href="kustarniki.html">Кустарники</a>
+                        <a class="dropdown-item item" href="plodovie.html">Плодовые растения</a>
+                        <a class="dropdown-item item" href="rozi.html">Розы</a>
+                        <a class="dropdown-item item" href="mnogoletniki.html">Многолетники</a>
+                    </div>
+                </li>
+                <!--                    <li><a href="cart.html">Cart</a></li>-->
+                <!--                    <li><a href="checkout.html">Checkout</a></li>-->
+            </ul>
+        </nav>
+        <!-- Cart Menu -->
+        <div class="cart-fav-search mb-100">
+            <a href="#" class="search-nav"><img src="../img/core-img/search.png" alt=""> Search</a>
+        </div>
+        <!-- Social Button -->
+        <div class="social-info d-flex justify-content-between">
+            <a target="_blank" href="https://www.instagram.com/green_season.ru/"><i class="fa fa-instagram"
+                                                                                    aria-hidden="true"></i></a>
+            <a target="_blank" href="https://facebook.com/greenseasonsheremetjevo/"><i class="fa fa-facebook"
+                                                                                       aria-hidden="true"></i></a>
+            <a target="_blank" href="https://vk.com/greenseasonru"><i class="fa fa-vk" aria-hidden="true"></i></a>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+
+    <div class="amado_product_area section-padding-100">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="product-topbar d-xl-flex align-items-end justify-content-between">
+                        <!-- Total Products -->
+                        <div class="total-products">
+                            <h1>Лиственные растения</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catalog row">
+
+                <!-- Single Product Area -->
+
+                <div id="iva_vavilon" data-path="step6" class="catalog__card">
+                    <a href="#iva_vavilon">
+                        <img data-img="step6" class="catalog__card-img" src="../img/product-img/ivaVavilon.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step6" class="name-box">
+                        <div data-link="step6" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Ива "Вавилон"</div>
+                        <div class="card-cost">42 000,00 p.</div>
+                        <div data-text="step6" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">Данное растение часто называют самым красивым декоративным деревом, которое пользуется огромной популярностью среди наших садоводов и ландшафтных дизайнеров. <br>
+                                 Необыкновенную красоту дерева придаёт ему его крона. Ветви тонкие и обладают зеленовато-золотистой или красной окраской. <br>
+                                ⠀ Ива любит хорошо освещенные участки и большое количество влаги. Дерево также устойчива к холодам. <br>
+                                ⠀ Место для посадки нужно выбрать максимально защищённое от воздействия холодных ветров. Ива хорошо растёт как в южных районах страны, так и в северных, включая Подмосковье. <br>
+                                При обморожении дерево достаточно быстро восстанавливается. <br>
+                                ⠀ Посадку рекомендуется совершать вблизи водоемов, если есть такая возможность. В этом случае корни дерева могут самостоятельно добывать необходимое количество влаги и пропадает необходимость полива. Если же рядом отсутствует источник воды, то иву необходимо будет часто поливать.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="klen_krimson_2,5" data-path="step40" class="catalog__card">
+                    <a href="#klen_krimson_2,5">
+                        <img data-img="step40" class="catalog__card-img"
+                             src="../img/product-img/klen-krimson-kust_2,5m.jpg" alt="">
+                    </a>
+                    <div data-target="step40" class="name-box">
+                        <div data-link="step40" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Клён Кримсон кинг кустовой С120, высота 2,50 м</div>
+                        <div class="card-cost">20 000 p.</div>
+                        <div data-text="step40" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">💖 Понравилось растение? Тогда узнавайте подробности приобретения, доставки, посадки и ухода! <br>
+                                ⠀ 👆Пишите сообщения или звоните по телефону в шапке профиля @green_season.ru Мы всегда готовы помочь и ответим на любые Ваши вопросы! ⠀ 📲 +7 (495) 926-09-90</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="klen_rubrum_3,5-4" data-path="step17" class="catalog__card">
+                    <a href="#klen_rubrum_3,5-4">
+                        <img data-img="step17" class="catalog__card-img" src="../img/product-img/klenRubrum.jpg" alt=""></a>
+                    <div data-target="step17" class="name-box">
+                        <div data-link="step17" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Клён Рубрум в контейнере С160, высотой 3,5-4,0 м</div>
+                        <div class="card-cost">60 000,00 p.</div>
+                        <div data-text="step17" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🍁 Клён Рубрум, также известный как красный клён, декоративен не только благодаря листве, меняющей насыщенность окраски от весны к осени, но и серебристо-серой коре. <br>
+                                ⠀ ☘ Растение весьма выносливо, но оно не любит прямых солнечных лучей, сквозняков и морозов ниже -15 градусов. Защищенный от ветра участок с мозаичным освещением будет идеальным местом для посадки клёна. <br>
+                                ⠀ 👨‍🌾 При посадке нужно выдерживать расстояние между саженцами от полутора метров минимум. Яму готовят глубиной 50-70 см. <br>
+                                ⠀ 💦 Частота полива зависит от района выращивания и погоды. При недостатке полива красный клён выживает, но теряет свою декоративность. <br>
+                                ⠀ ☝️Это дерево с красными листьями красиво смотрится как в одиночных, так и в ограниченных групповых посадках.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="bereza_pendula_2" data-path="step20" class="catalog__card">
+                    <a href="#bereza_pendula_2">
+                        <img data-img="step20" class="catalog__card-img" src="../img/product-img/berezaPendula.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step20" class="name-box">
+                        <div data-link="step20" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Берёза Пендула 2 м</div>
+                        <div class="card-cost">8 000,00 p.</div>
+                        <div data-text="step20" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🌳 Берёза Пендула — самый популярный и распространенный вид декоративной берёзы. Это высокое дерево, выстой до 30 м с длинными и тонкими ветвями. <br>
+                                ⠀ ☘️ Посадку саженцев берёзы с открытой корневой системой производят, когда они находятся в состоянии покоя: в ноябре или в начале марта. ⠀<br>
+                                👨‍🌾 Берёза хорошо переносит обрезку. Нежелательные для формирования кроны побеги можно обрезать раз в год. Лучше это делать осенью, когда все листья уже опали. <br>
+                                ⠀ 💦 Молодые саженцы нуждаются в регулярном поливе, нельзя допускать высыхания грунта. Взрослым экземплярам также нужен регулярный полив, так как длительную засуху растение переносит плохо.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="yasen_zeltokoriy_2,1-2,3" data-path="step27" class="catalog__card">
+                    <a href="#yasen_zeltokoriy_2,1-2,3">
+                        <img data-img="step27" class="catalog__card-img" src="../img/product-img/yasen_2.1-2.3m.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step27" class="name-box">
+                        <div data-link="step27" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Ясень Желтокорый 2,1- 2,3 м</div>
+                        <div class="card-cost">18 000 p.</div>
+                        <div data-text="step27" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🍂 Ясень желтокорый достигает высоты в 4-5 м. Особенностью данного сорта является его листья светло-жёлтого цвета. К осени окраска становится ярко-жёлтой. <br>
+                                ⠀ ☘ Дерево растёт медленно. Несмотря на морозостойкость ясеня, он предпочитает солнечные места. <br>
+                                ⠀ 👨‍🌾 Растение требователено к почвам, хорошо растёт на свежих, плодородных, содержащих известь землях. <br>
+                                ⠀ 💦 Поливать ясень требуется в засушливые периоды и после посадки (4-5 дней подряд). Он прекрасно переносит непродолжительную засуху. <br>
+                                ⠀ ☝️Чаще всего ясень используется для аллейных посадок и создания колористических композиций, но также хорош и в одиночной посадке.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="puzireplodnik_diable" data-path="step16" class="catalog__card">
+                    <a href="#puzireplodnik_diable">
+                        <img data-img="step16" class="catalog__card-img"
+                             src="../img/product-img/puzireplodnikDiable.jpg" alt="">
+                    </a>
+                    <div data-target="step16" class="name-box">
+                        <div data-link="step16" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Пузыреплодник калинолистный Diable <br> 0,7-0,8 м в контейнере
+                            С5
+                        </div>
+                        <div class="card-cost">750,00 p.</div>
+                        <div data-text="step16" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">💐 ПУЗЫРЕПЛОДНИК КАЛИНОЛИСТНЫЙ DIABLE 💐 <br>
+                                ⠀ 💐 Пузыреплодник diable является одним из самых популярных среди ландшафтных дизайнеров и владельцев частных домов видом «живой изгороди». <br>
+                                ⠀ 👩🏻‍🌾 Особенностью сорта являются пурпурные, равномерно окрашенные листья. Осенью их окраска практически не меняется, только становится чуть светлее. <br>
+                                ⠀ ☘️ Растение устойчиво к различным вредителям и болезням, соответственно никакой особенной обработки не требует. <br>
+                                ⠀ 🌳 Растение отлично переносит стрижку и обрезку. Обрезают только сухие веточки, старые ветки срезать не надо! <br>
+                                ⠀ 💦 Предпочитает плодородные, увлажненные, дренированные почвы. Засуху переносит хорошо, но лучше не забывать его регулярно поливать. <br>
+                                💳 Принимаем оплату наличными, банковской картой через терминал и переводом на карту.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="puzireplodnik_60-80" data-path="step2" class="catalog__card">
+                    <a href="#puzireplodnik_60-80">
+                        <img data-img="step2" class="catalog__card-img" src="../img/product-img/пузыреплодник.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step2" class="name-box">
+                        <div data-link="step2" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo"
+                                     width="60" height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Пузыреплодник 60-80 см</div>
+                        <div class="card-cost">350,00 p.</div>
+                        <div data-text="step2" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span"> Пузыреплодник является одним из самых популярных среди ландшафтных дизайнеров и домовладельцев видом «живой изгороди». <br>
+                                ⠀ Цветет в течение двух-трех недель в первой половине лета, а посадку лучше всего совершать весной или осенью. <br>
+                                ⠀ Растение любит яркий солнечный свет или полутень. Почва должна быть рыхлой, плодородной, хорошо дренированной и не содержащей известь и суглинок. <br>
+                                ⠀ Пузыреплодник нуждается в обрезке. Ее необходимо делать весной, до набухания почек. <br>
+                                ⠀ Поливать нужно строго под корень, рано утром или после заката. Когда жарко, полив нужно участить до двух раз в неделю.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="gortenzia_anabel_0,8-1" data-path="step5" class="catalog__card">
+                    <a href="#gortenzia_anabel_0,8-1">
+                        <img data-img="step5" class="catalog__card-img" src="../img/product-img/gortenzia.jpg" alt="">
+                    </a>
+                    <div data-target="step5" class="name-box">
+                        <div data-link="step5" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Гортензия древовидная "Анабель" 0,8-1,0 м</div>
+                        <div class="card-cost">700,00 p.</div>
+                        <div data-text="step5" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">� Гортензия сорта "Анабель" (на фото) - один из самых красивых и популярных сортов древовидной крупнолистной гортензии, несложный в уходе. Цветёт гортензия с июня до конца осени огромными белыми шарами соцветий до 30 см в диаметре, зеленеющими при отцветании! <br>
+                                ⠀ � Данное растение представляет собой декоративный листопадный кустарник, обладающий куполовидной, рыхлой и раскидистой формой. <br>
+                                ⠀ � Гортензия растёт быстро: до 80 сантиметров в год. Кустарник достигает высоты в 1-1,5 метра, и диаметра до 3 метров. Анабель -- долгожительница: может расти около 50-и лет. <br>
+                                ⠀ � Морозостойкость растения достигает -35°C. Гортензия теплолюбивая, требовательна к влаге, но может переносить короткую засуху. Хорошо растёт в полузатемнённых местах. <br>
+                                ⠀ � Перед посадкой необходимо подготовить лунку размером 50×50×60 см. На дно ямы рекомендуется поместить дренаж в виде гравия и битого кирпича слоем 5-10 см, а поверх дренажа насыпать плодородную почву слоем 10-15 см. <br>
+                                ⠀ � В сухой и ветреный период рекомендуется опрыскивать растение сразу же после посадки. Расход воды на полив составляют 15-20 литров на одно растение.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="golubika_bluy_krop_50-60" data-path="step30" class="catalog__card">
+                    <a href="#golubika_bluy_krop_50-60">
+                        <img data-img="step30" class="catalog__card-img"
+                             src="../img/product-img/golubika-blu-korp_50-60sm.jpg" alt="">
+                    </a>
+                    <div data-target="step30" class="name-box">
+                        <div data-link="step30" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Голубика Блю Кроп С3 (3 литра), высота 50-60 см</div>
+                        <div class="card-cost">800 p.</div>
+                        <div data-text="step30" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">❗️Скидка 15% на все растения для подписчиков садового центра @green_season.ru и питомника @green_season_shahovskaya "Зелёный Сезон" в Facebook и Instagram‼️<br>
+                                ⠀ 💳 Принимаем оплату наличными, банковской картой через терминал и переводом на карту. <br>
+                                ⠀ 🍇 Голубика садовая может достигать высоты в 1-1,5 метра. Растёт она на кислых почвах в сырых местах, а плодоносит в течение 70-80 лет, начиная с 3-летнего возраста. <br>
+                                ⠀ ✔ СОРТ БЛЮКРОП Специально был выведен под наши климатические условия, поэтому сорт отличается своей морозостойкостью. Плоды созревают в июле-августе, плодоношение очень обильное, регулярное, урожайность 6-9 кг с куста. ⠀</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="golubika_cuker_traube" data-path="step31" class="catalog__card">
+                    <a href="#golubika_cuker_traube">
+                        <img data-img="step31" class="catalog__card-img"
+                             src="../img/product-img/golubika-cuker-traube_50-60sm.jpg" alt="">
+                    </a>
+                    <div data-target="step31" class="name-box">
+                        <div data-link="step31" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Голубика Цукер Траубе С3 (3 литра), высота 50-60 см</div>
+                        <div class="card-cost">800 p.</div>
+                        <div data-text="step31" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">⠀ ❗️Скидка 15% на все растения для подписчиков садового центра @green_season.ru и питомника @green_season_shahovskaya "Зелёный Сезон" в Facebook и Instagram‼️<br>
+                                ⠀ 💳 Принимаем оплату наличными, банковской картой через терминал и переводом на карту. <br>
+                                ⠀ 🍇 Голубика садовая может достигать высоты в 1-1,5 метра. Растёт она на кислых почвах в сырых местах, а плодоносит в течение 70-80 лет, начиная с 3-летнего возраста. <br>
+                                ⠀ ✔ СОРТ ЦУКЕР ТРАУБЕ Очень урожайный сорт. Куст достигает высоты в 0,6—0,8 м. Созревание ягод начинается в первой декаде июля. Плоды темно-голубого цвета, сладкие, маленького и среднего размера. Плодоносит на протяжении 6 недель. Сорт засухоустойчив и хорош для выращивания на сухих почвах в бедных атмосферными осадками районах.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="gortenzia_metelchataya" data-path="step32" class="catalog__card">
+                    <a href="#gortenzia_metelchataya">
+                        <img data-img="step32" class="catalog__card-img"
+                             src="../img/product-img/gortenzia-metelchatay.jpg" alt="">
+                    </a>
+                    <div data-target="step32" class="name-box">
+                        <div data-link="step32" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Гортензия Метельчатая (контейнер С5)</div>
+                        <div class="card-cost">1 000 p.</div>
+                        <div data-text="step32" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">� ГОРТЕНЗИЯ МЕТЕЛЬЧАТАЯ � ⠀<br>
+                                � одно из любимых растений садоводов, которое вы можете приобрести в нашем Садовом центре @green_season.ru <br>
+                                � Начиная с середины лета это растение распускает свои пышные соцветия розовых, голубых или белых оттенков. Обильное цветение продолжается с середины июля до конца октября. <br>
+                                � В отличие от других видов гортензий, данный вид хорошо переносит наш холодный климат. Но помните, что это растение не переносит застоя воды, и поливать его необходимо 2 раза в неделю из расчёта около 3 вёдер на куст. <br>
+                                � В северных регионах гортензию рекомендуется сажать в открытый грунт, предпочтительнее весной, а на юге процедуру осуществляют и осенью. <br>
+                                � Наши саженцы гортензий с закрытой корневой системой в ёмкостях различного размера можно высаживать в период с апреля по октябрь. <br>
+                                � Почву нужно хорошо утрамбовать. Полив гортензии после посадки обязателен, вода должна просачиваться на глубину расположения корней 30-40 см.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="barbaris_atropurpurea_40-50" data-path="step33" class="catalog__card">
+                    <a href="#barbaris_atropurpurea_40-50">
+                        <img data-img="step33" class="catalog__card-img"
+                             src="../img/product-img/barbaris-astropurea_40-50sm.jpg" alt="">
+                    </a>
+                    <div data-target="step33" class="name-box">
+                        <div data-link="step33" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Барбарис Атропурпуреа в контейнере С3, высотой 40-50 см</div>
+                        <div class="card-cost">680 p.</div>
+                        <div data-text="step33" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🍂 Атропурпуреа является одним из наиболее декоративных видов барбариса. Молодое растение имеет округлую форму. С возрастом ветви растут почти горизонтально и начинают дугообразно изгибается. <br>
+                                ⠀ ☘ Кустарник достигает 1–1,5 м в высоту и 1,5–2 м в диаметре. Листья маленькие, пурпурно-красного цвета. Осенью они становятся светло-карминными, а побеги красно-пурпурными. <br>
+                                ⠀ 👨‍🌾 Кустарник мало требователен к виду почвы. Предпочитает хорошо дренированные свежие или влажные супесчаные и суглинистые почвы, от слабокислых до слабощёлочных. <br>
+                                ⠀ 💦 Бабарис не переносит переуплотнения почвы. Кустарник жаростойкий и умеренно засухоустойчивый. <br>
+                                ⠀ ☝️Барбарисы — это один из популярнейших разновидностей живой изгороди. Они служат «живыми» бордюрами и ограждениями.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="barbaris_tunberga_red-rocket" data-path="step34" class="catalog__card">
+                    <a href="#barbaris_tunberga_red-rocket">
+                        <img data-img="step34" class="catalog__card-img"
+                             src="../img/product-img/barbaris-tunberga-red-rocket.jpg" alt="">
+                    </a>
+                    <div data-target="step34" class="name-box">
+                        <div data-link="step34" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Барбарис Тунберга «Ред Рокет» «Красная ракета» (Berberis
+                            thunbergii «Red Rocket»)
+                        </div>
+                        <div class="card-cost">850 p.</div>
+                        <div data-text="step34" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">Это разновидность растений для живой изгороди, которые часто используются в качестве «живых» бордюров и ограждений. <br>
+                                Барбарис Тунберга «Ред Рокет» «Красная ракета» (Berberis thunbergii «Red Rocket») - яркий представитель группы пурпуролистных видов. ⠀ <br>
+                                Высокий колонновидный кустарник до 2 м высотой и до 1 м в диаметре. Ветви устремлены горизонтально вверх и покрыты обильными короткими ответвлениями. ⠀ <br>
+                                Барбарис любит сухие и солнечные места. Помните, что барбарисы не переносят застоя воды. Барбарисы хорошо переносят городские условия. При посадке в кислую почву необходимо внести 300 граммов гашеной извести из расчёта на одно растение. ⠀ <br>
+                                Весной ветви барбарисов покрываются желтыми цветками. Осенью же листья растения обретают оранжево-пурпурный окрас. ⠀ <br>
+                                Как и упоминалось ранее, застой воды губителен для кустарника. Поливают растение очень редко: во время высадки и пока куст не приживется.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="barbaris_80" data-path="step41" class="catalog__card">
+                    <a href="#barbaris_80">
+                        <img data-img="step41" class="catalog__card-img" src="../img/product-img/barbaris_80sm.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step41" class="name-box">
+                        <div data-link="step41" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Барбарис С10 80 см</div>
+                        <div class="card-cost">3 000 p.</div>
+                        <div data-text="step41" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">💖 Понравилось растение? Тогда узнавайте подробности приобретения, доставки, посадки и ухода! ⠀ <br>
+                                👆Пишите сообщения или звоните по телефону в шапке профиля @green_season.ru Мы всегда готовы помочь и ответим на любые Ваши вопросы! ⠀ <br>
+                                📲 +7 (495) 926-09-90</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="barbaris_tunberga_koronita_1-1,2" data-path="step45" class="catalog__card">
+                    <a href="#barbaris_tunberga_koronita_1-1,2">
+                        <img data-img="step45" class="catalog__card-img"
+                             src="../img/product-img/barbaris-tunberga-koronita_1-1.2m.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step45" class="name-box">
+                        <div data-link="step45" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Барбарис Тунберга "Коронита" 1,0-1,2 м в горшке С10</div>
+                        <div class="card-cost">1 000 p.</div>
+                        <div data-text="step45" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">Эта разновидность растений для живой изгороди, которые часто используются в качестве «живых» бордюров и ограждений. <br>
+                                🌳Барбарис Тунберга "Коронита" (Berberis thunbergii 'Coronita') декоративен раскидистой кроной с дуговидными побегами и коричнево-красными листьями с узкой зеленовато-желтой каймой. Это раскидистый кустарник высотой около 1 м и диаметром до 1,5 м. ⠀⠀ <br>
+                                ☘️ Барбарис любит сухие и солнечные места. Помните, что барбарисы не переносят застоя воды. <br>
+                                👨‍🌾 Барбарисы хорошо переносят городские условия. При посадке в кислую почву необходимо внести 300 граммов гашеной извести из расчёта на одно растение. ⠀ <br>
+                                🌳 Весной ветви барбарисов покрываются желтыми цветками. Осенью же листья растения обретают оранжево-пурпурный окрас. ⠀ <br>
+                                💦 Как и упоминалось ранее, застой воды губителен для кустарника. Поливают растение очень редко: во время высадки и пока куст не приживется. ⠀ <br>
+                                💵 В садовом центре «Зелёный Сезон» стоимость барбариса высотой 0,8-1,0 м в горшке С7,5 — 850 ₽, а высотой 1,0-1,2 м в горшке С10 — 1000 ₽. ⠀ <br>
+                                💳 Принимаем оплату наличными, банковской картой через терминал и переводом на карту.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="barbaris_tunberga_koronita_0,8-1" data-path="step46" class="catalog__card">
+                    <a href="#barbaris_tunberga_koronita_0,8-1">
+                        <img data-img="step46" class="catalog__card-img"
+                             src="../img/product-img/barbaris-koronita-0.8-1m.jpg" alt="">
+                    </a>
+                    <div data-target="step46" class="name-box">
+                        <div data-link="step46" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Барбарис Тунберга "Коронита" 0,8-1,0 м С7,5</div>
+                        <div class="card-cost">850 p.</div>
+                        <div data-text="step46" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">Эта разновидность растений для живой изгороди, которые часто используются в качестве «живых» бордюров и ограждений. <br>
+                                🌳Барбарис Тунберга "Коронита" (Berberis thunbergii 'Coronita') декоративен раскидистой кроной с дуговидными побегами и коричнево-красными листьями с узкой зеленовато-желтой каймой. Это раскидистый кустарник высотой около 1 м и диаметром до 1,5 м. ⠀⠀ <br>
+                                ☘️ Барбарис любит сухие и солнечные места. Помните, что барбарисы не переносят застоя воды. <br>
+                                👨‍🌾 Барбарисы хорошо переносят городские условия. При посадке в кислую почву необходимо внести 300 граммов гашеной извести из расчёта на одно растение. ⠀ <br>
+                                🌳 Весной ветви барбарисов покрываются желтыми цветками. Осенью же листья растения обретают оранжево-пурпурный окрас. ⠀ <br>
+                                💦 Как и упоминалось ранее, застой воды губителен для кустарника. Поливают растение очень редко: во время высадки и пока куст не приживется. ⠀ <br>
+                                💵 В садовом центре «Зелёный Сезон» стоимость барбариса высотой 0,8-1,0 м в горшке С7,5 — 850 ₽, а высотой 1,0-1,2 м в горшке С10 — 1000 ₽. ⠀ <br>
+                                💳 Принимаем оплату наличными, банковской картой через терминал и переводом на карту.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="puzireplodnik_diable_0,7-0,8" data-path="step26" class="catalog__card">
+                    <a href="#puzireplodnik_diable_0,7-0,8">
+                        <img data-img="step26" class="catalog__card-img"
+                             src="../img/product-img/puzireplodnik_diable-0,7m.jpg" alt="">
+                    </a>
+                    <div data-target="step26" class="name-box">
+                        <div data-link="step26" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Пузыреплодник калинолистный Diable 0,7-0,8 м в контейнере С5
+                        </div>
+                        <div class="card-cost">750 p.</div>
+                        <div data-text="step26" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">💐 ПУЗЫРЕПЛОДНИК КАЛИНОЛИСТНЫЙ DIABLE 💐 ⠀<br>
+                                💐 Пузыреплодник diable является одним из самых популярных среди ландшафтных дизайнеров и владельцев частных домов видом «живой изгороди». ⠀ <br>
+                                👩🏻‍🌾 Особенностью сорта являются пурпурные, равномерно окрашенные листья. Осенью их окраска практически не меняется, только становится чуть светлее. ⠀ <br>
+                                ☘️ Растение устойчиво к различным вредителям и болезням, соответственно никакой особенной обработки не требует. ⠀ <br>
+                                🌳 Растение отлично переносит стрижку и обрезку. Обрезают только сухие веточки, старые ветки срезать не надо! ⠀ <br>
+                                💦 Предпочитает плодородные, увлажненные, дренированные почвы. Засуху переносит хорошо, но лучше не забывать его регулярно поливать. <br>
+                                💳 Принимаем оплату наличными, банковской картой через терминал и переводом на карту.</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <h2 class="text_adr">Мы находимся</h2>
+            <div class="footer-adress">
+                <div class="map__container">
+                    <div class="conttainer__info">
+
+                        <strong class="info-footer">Контактная информация
+                            "Зеленый Сезон" <br>
+                            Черная Грязь,9 Московская область, Россия <br>
+                            Ежедневно с 9:00 до 20:00 <br>
+                            +7 (495) 926-09-90 <br>
+                            greenseasonrus@gmail.com</strong>
+
+                    </div>
+                    <div class="map">
+                        <div id="map1"></div>
+                    </div>
+                </div>
+                <div class="map__container">
+                    <div class="conttainer__info">
+
+                        <strong class="info-footer">Питомник растений Зелёный сезон<br>
+                            Россия, рабочий посёлок Шаховская, <br> Рижское ш., вл1с1<br>
+                            Открыто c 9:00 до 19:00 <br>
+                            +7 (965) 106-55-59<br>
+                            greenseasonrus@gmail.com</strong>
+
+                    </div>
+                    <div class="map">
+                        <div id="map2"></div>
+                    </div>
+
+                </div>
+
+
+                <script async defer crossorigin="anonymous"
+                        src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0"
+                        nonce="Nf5Lp7Ee"></script>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+<!-- ##### Main Content Wrapper End ##### -->
+
+<!-- ##### Newsletter Area Start ##### -->
+<section class="newsletter-area section-padding-100-0">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Newsletter Text -->
+            <div class="col-12 col-lg-6 col-xl-7">
+                <div class="newsletter-text mb-100">
+                    <h2>Выгодное предложение <br><span>Скидка 5➕5=10%</span></h2>
+                    <p class="text-indent">Если вы наш подписчик, у вас уже есть 5% скидка. Но если вы активный
+                        покупатель, мы предлагаем вам получить ещё 5%
+                        <br>
+                    <p class="text-indent">5% всегда - если вы наш подписчик (просто покажите подписку на кассе)</p><br>
+                    <p class="text-indent">5% - за фото и отметку нас @green_season.ru в сториз в Instagram (покажите
+                        фото с отметкой на кассе)</p><br>
+                    <p class="text-indent">ИЛИ за фото с отметкой в Facebook</p><br>
+                    <p class="text-indent">ИЛИ за отзыв с ФОТО в Google или Яндекс (покажите отзыв)</p>
+                    </p>
+                </div>
+            </div>
+            <!-- Newsletter Form -->
+            <div class="col-12 col-lg-6 col-xl-5">
+                <div class="newsletter-form mb-100">
+                    <form action="#" method="post">
+                        <input type="email" name="email" class="nl-email" placeholder="Ваш E-mail">
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### Newsletter Area End ##### -->
+
+<!-- ##### Footer Area Start ##### -->
+<footer class="footer_area clearfix">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Single Widget Area -->
+            <div class="col-12 col-lg-4">
+                <div class="single_widget_area">
+                    <!-- Logo -->
+                    <div class="logo logo_footer">
+                        <img class="logo_img logo_img_footer " src="../img/core-img/logo_footer.svg" alt="logo">
+                        <a href="../index.html"><span class="logo_name logo_name_footer">ЗЕЛЁНЫЙ-<br>СЕЗОН</span> </a>
+                    </div>
+                    <!-- Copywrite Text -->
+                </div>
+            </div>
+            <!-- Single Widget Area -->
+            <div class="col-12 col-lg-8">
+                <div class="single_widget_area">
+                    <!-- Footer Menu -->
+                    <div class="footer_menu">
+                        <nav class="navbar navbar-expand-lg justify-content-end">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#footerNavContent" aria-controls="footerNavContent"
+                                    aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="footerNavContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="../index.html">Главная</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="hvoynie.html">Каталог</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../product-details.html">Оплата и доставка</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ##### Footer Area End ##### -->
+
+<!-- ##### jQuery (Necessary for All JavaScript Plugins) ##### -->
+<script src="../js/jquery/jquery-2.2.4.min.js"></script>
+<!-- Popper js -->
+<script src="../js/popper.min.js"></script>
+<!-- Bootstrap js -->
+<script src="../js/bootstrap.min.js"></script>
+<!-- Plugins js -->
+<script src="../js/plugins.js"></script>
+<!-- Active js -->
+<script src="../js/active.js"></script>
+<script src="js.js"></script>
+
+</body>
+
+</html>

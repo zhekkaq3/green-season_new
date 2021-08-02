@@ -1,0 +1,789 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+          content="Зеленый Сезон - Садовый центр - Питомник растений -">
+    <meta name="author" content="Zhekka Ivanchik">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Зелёный Сезон - Садовый центр - Питомник растений</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="../img/core-img/favicon.svg" type="image/svg">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="../css/core-style.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=18b74fc3-2813-4dbe-bcda-fcbc5da0c747&lang=ru_RU"
+            type="text/javascript">
+    </script>
+
+    <script type="text/javascript">
+        ymaps.ready(init);
+
+        function init() {
+            var myMap = new ymaps.Map("map1", {
+                    center: [56, 37.3],
+                    zoom: 11
+                },
+                {
+                    autoFitToViewport: 'always',
+                    searchControlProvider: 'yandex#search'
+                }
+            );
+
+            myMap.container.fitToViewport();
+
+
+            myGeoObject = new ymaps.GeoObject({
+                // Описание геометрии.
+                geometry: {
+                    type: "Point",
+                    coordinates: [55.974673, 37.313038]
+                },
+                // Свойства.
+                properties: {
+                    // Контент метки.
+                    iconContent: 'Мы',
+                    hintContent: 'Зеленый Сезон'
+                }
+            })
+            myMap.geoObjects
+                .add(myGeoObject)
+
+        }
+
+    </script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+
+        function init() {
+            var myMap = new ymaps.Map("map2", {
+                    center: [56.037, 35.5496],
+                    zoom: 13
+                },
+                {
+                    autoFitToViewport: 'always',
+                    searchControlProvider: 'yandex#search'
+                }
+            );
+
+            myMap.container.fitToViewport();
+
+
+            myGeoObject = new ymaps.GeoObject({
+                // Описание геометрии.
+                geometry: {
+                    type: "Point",
+                    coordinates: [56.037030, 35.552633]
+                },
+                // Свойства.
+                properties: {
+                    // Контент метки.
+                    iconContent: 'Мы',
+                    hintContent: 'Зеленый Сезон'
+                }
+            })
+            myMap.geoObjects
+                .add(myGeoObject)
+
+        }
+
+    </script>
+    <style>
+        #map1, #map2 {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+<!-- Search Wrapper Area Start -->
+<div class="search-wrapper section-padding-100">
+    <div class="search-close">
+        <i class="fa fa-close" aria-hidden="true"></i>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="search-content">
+                    <form action="#" method="get">
+                        <input type="search" name="search" id="search" placeholder="Что будем искать ?">
+                        <button type="submit"><img src="../img/core-img/search.png" alt=""></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Search Wrapper Area End -->
+
+<!-- ##### Main Content Wrapper Start ##### -->
+<div class="main-content-wrapper d-flex clearfix">
+
+    <!-- Mobile Nav (max width 767px)-->
+    <div class="mobile-nav">
+        <!-- Navbar Brand -->
+
+        <div class="amado-navbar-brand">
+            <div class="logo logo_header">
+                <img class="logo_img logo_img_header " src="../img/core-img/logo.svg" alt="logo">
+                <a href="../index.html"><span class="logo_name logo_name_header">ЗЕЛЁНЫЙ-<br>СЕЗОН</span> </a>
+            </div>
+        </div>
+        <div class="social-info d-flex justify-content-between">
+            <a class="seti" target="_blank" href="https://www.instagram.com/green_season.ru/"><i
+                    class="ffa fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="seti" target="_blank" href="https://facebook.com/greenseasonsheremetjevo/"><i
+                    class="ffa fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="seti" target="_blank" href="https://vk.com/greenseasonru"><i class="ffa fa fa-vk"
+                                                                                   aria-hidden="true"></i></a>
+        </div>
+        <!-- Navbar Toggler -->
+        <div class="amado-navbar-toggler">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <!-- Header Area Start -->
+    <header class="header-area clearfix">
+        <!-- Close Icon -->
+        <div class="nav-close">
+            <i class="fa fa-close" aria-hidden="true"></i>
+        </div>
+        <!-- Logo -->
+        <div class="logo">
+            <img class="logo_img" src="../img/core-img/logo.svg" alt="logo">
+            <a href="../index.html"><span class="logo_name">ЗЕЛЁНЫЙ-<br>СЕЗОН</span> </a>
+        </div>
+        <!--            Header info-->
+        <div>
+            <h4 class="text-black text1">Садовый центр</h4>
+            <p class="text-muted text2">
+                Режим работы: Пн-Вс: с 9:00 до 20:00
+                <br>
+                Позвоните нам: <br> +7 (495) 926-09-90</p>
+        </div>
+        <!-- Amado Nav -->
+        <nav class="amado-nav">
+            <ul>
+                <li><a class="font-weight-bold" href="../index.html">Главная</a></li>
+
+                <li><a class="font-weight-bold" href="../product-details.html">Оплата и доставка</a></li>
+                <li class="dropdown show">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Каталог
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item item" href="hvoynie.html">Хвойные растения</a>
+                        <a class="dropdown-item item" href="listvennie.html">Лиственные растения</a>
+                        <a class="dropdown-item item" href="kustarniki.html">Кустарники</a>
+                        <a class="dropdown-item item" href="plodovie.html">Плодовые растения</a>
+                        <a class="dropdown-item item" href="rozi.html">Розы</a>
+                        <a class="dropdown-item item" href="mnogoletniki.html">Многолетники</a>
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- Cart Menu -->
+        <div class="cart-fav-search mb-100">
+            <a href="#" class="search-nav"><img src="../img/core-img/search.png" alt=""> Search</a>
+        </div>
+        <!-- Social Button -->
+        <div class="social-info d-flex justify-content-between">
+            <a target="_blank" href="https://www.instagram.com/green_season.ru/"><i class="fa fa-instagram"
+                                                                                    aria-hidden="true"></i></a>
+            <a target="_blank" href="https://facebook.com/greenseasonsheremetjevo/"><i class="fa fa-facebook"
+                                                                                       aria-hidden="true"></i></a>
+            <a target="_blank" href="https://vk.com/greenseasonru"><i class="fa fa-vk" aria-hidden="true"></i></a>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+
+    <div class="amado_product_area section-padding-100">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="product-topbar d-xl-flex align-items-end justify-content-between">
+                        <!-- Total Products -->
+                        <div class="total-products">
+                            <h1>Хвойные растения</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catalog row">
+
+                <!-- Single Product Area -->
+                <div id="tuya_smaragd_1,75-2" data-path="step3" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#tuya_smaragd_1,75-2">
+                        <img data-img="step3" class="catalog__card-img" src="../img/product-img/туяСмфрфгд.jpg" alt="">
+                    </a>
+                    <div data-target="step3" class="name-box">
+                        <div data-link="step3" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Туя Смарагд 1,75-2 м.</div>
+                        <div class="card-cost">4 500,00 p.</div>
+                        <div data-text="step3" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">Это хвойное растение, которое также известно под названием «жизненное дерево». <br>
+                                Растение относительно компактное: до 3 метров в высоту и до 100-150 см в диаметре. <br>
+                                ⠀ Туя — теплолюбивое растение, место для посадки нужно выбрать солнечное. Ей также крайне важен чистый воздух и безветрие. <br>
+                                Туя равнодушна к заморозкам и прекрасно себя чувствуют даже в северных широтах. <br>⠀ Дерево может расти практически на любой почве. <br>
+                                Рекомендуемая смесь грунта должна состоят из дерновой земли и торфа, взятых в пропорции 2:1. <br>
+                                ⠀ Поливать взрослое растение необходимо один раз в неделю одним ведром воды. Жарким летом частоту поливов лучше увеличить, чтобы засуха не вредила кроне дерева.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tuya_smaragd_2-2,5" data-path="step39" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#tuya_smaragd_2-2,5">
+                        <img data-img="step39" class="catalog__card-img"
+                             src="../img/product-img/tuya_smaragd_2-2.5m.jpg" alt="">
+                    </a>
+                    <div data-target="step39" class="name-box">
+                        <div data-link="step39" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Туя Смарагд 2,0-2,5 м</div>
+                        <div class="card-cost">12 500,00 p.</div>
+                        <div data-text="step39" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span"> Это хвойное растение, которое также известно под названием «жизненное дерево». <br>
+                                ⠀ Растение относительно компактное: до 3 метров в высоту и до 100-150 см в диаметре. <br>
+                                ⠀ Туя — теплолюбивое растение, место для посадки нужно выбрать солнечное. Ей также крайне важен чистый воздух и безветрие. Туя равнодушна к заморозкам и прекрасно себя чувствуют даже в северных широтах. <br>
+                                ⠀ Дерево может расти практически на любой почве. Рекомендуемая смесь грунта должна состоят из дерновой земли и торфа, взятых в пропорции 2:1. <br>
+                                ⠀ Поливать взрослое растение необходимо один раз в неделю одним ведром воды. Жарким летом частоту поливов лучше увеличить, чтобы засуха не вредила кроне дерева.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="tuya_danika_40-50" data-path="step4" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#tuya_danika_40-50">
+                        <img data-img="step4" class="catalog__card-img" src="../img/product-img/DAnika.jpg" alt="">
+                    </a>
+                    <div data-target="step4" class="name-box">
+                        <div data-link="step4" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Туя Даника высотой 40-50 см</div>
+                        <div class="card-cost">2 000,00 p.</div>
+                        <div data-text="step4" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span"> 🌲 Растение обрело свою популярность благодаря превосходным декоративным свойствам. Особенностью сорта карликового дерева является аккуратная округлая крона. <br>
+                                ⠀ ☘ Туя Даника нетребовательна к условиям посадки и уходу и прекрасно растёт в открытом грунте. <br>
+                                ⠀ 👨‍🌾 Посадку лучше всего совершать на солнечном месте. Это поможет сформировать идеальную здоровую крону. Также пространство должно быть укрытым от ветра. Туя Даника любит лёгкие слабокислые грунты. <br>
+                                ⠀ 💦 Молодому растению необходим полив 1 раз в неделю (10–20 л воды). Со второго месяца с момента посадки частота полива сокращается. В засуху количество воды наоборот можно увеличить. <br>
+                                ⠀ ☝️Выращивать тую Даника можно и как самостоятельный элемент декора, так и в сочетании с другими культурами. Она также отлично смотрится в качестве живой изгороди.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="el_globoza_c15" data-path="step7" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#el_globoza_c15">
+                        <img data-img="step7" class="catalog__card-img" src="../img/product-img/elGloboza.jpg" alt="">
+                    </a>
+                    <div data-target="step7" class="name-box">
+                        <div data-link="step7" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Ель "Глобоза" С15</div>
+                        <div class="card-cost">9 500,00 p.</div>
+                        <div data-text="step7" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span"> 🌳 Ель Глаука — это декоративное хвойное растение. Крона конической формы. Особенностью ели является то, что взрослое растение приобретает серебристо-голубую окраску, за что она и получила своё название— "голубая ель". <br>
+                                ⠀ ☘ Место для посадки должно быть подальше от грунтовых вод. Необходимо сделать дренажный слой толщиной 15-20 см, из песка или битого кирпича. <br>
+                                ⠀ 💦 Ели не любят сухую жаркую погоду, поэтому летом их необходимо поливать раз в неделю, примерно по 10-12 л на дерево.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="el_glauka_60" data-path="step9" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#el_glauka_60">
+                        <img data-img="step9" class="catalog__card-img" src="../img/product-img/elGlauka60sm.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step9" class="name-box">
+                        <div data-link="step9" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Ель «Глаука» на штамбе 60 см</div>
+                        <div class="card-cost">12 000,00 p.</div>
+                        <div data-text="step9" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🌳 Ель Глаука — это декоративное хвойное растение. Крона конической формы. Особенностью ели является то, что взрослое растение приобретает серебристо-голубую окраску, за что она и получила своё название— "голубая ель". <br>
+                                ⠀ ☘ Место для посадки должно быть подальше от грунтовых вод. Необходимо сделать дренажный слой толщиной 15-20 см, из песка или битого кирпича. <br>
+                                ⠀ 💦 Ели не любят сухую жаркую погоду, поэтому летом их необходимо поливать раз в неделю, примерно по 10-12 л на дерево.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="el_oldenburg_1,4-1,6" data-path="step10" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#el_oldenburg_1,4-1,6">
+                        <img data-img="step10" class="catalog__card-img" src="../img/product-img/elOldenburg.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step10" class="name-box">
+                        <div data-link="step10" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Ель "Ольденбург" 1,4-1,6 м</div>
+                        <div class="card-cost">19 500,00 p.</div>
+                        <div data-text="step10" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🌳 Ель Глаука — это декоративное хвойное растение. Крона конической формы. Особенностью ели является то, что взрослое растение приобретает серебристо-голубую окраску, за что она и получила своё название— "голубая ель". <br>
+                                ⠀ ☘ Место для посадки должно быть подальше от грунтовых вод. Необходимо сделать дренажный слой толщиной 15-20 см, из песка или битого кирпича. <br>
+                                ⠀ 💦 Ели не любят сухую жаркую погоду, поэтому летом их необходимо поливать раз в неделю, примерно по 10-12 л на дерево.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="black_sosna_pinus-nigra" data-path="step11" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#black_sosna_pinus-nigra">
+                        <img data-img="step11" class="catalog__card-img" src="../img/product-img/sosnaPinus.jpg" alt="">
+                    </a>
+                    <div data-target="step11" class="name-box">
+                        <div data-link="step11" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Чёрная сосна Pinus Nigra</div>
+                        <div class="card-cost">73 000,00 p.</div>
+                        <div data-text="step11" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span"> Это хвойное растение обрело свою популярность среди садоводов благодаря нетребовательности в уходе. <br>
+                                ⠀ Данный сорт обладает пирамидальной кроной и темной корой. Высота сосны после 30 лет достигает 10 метров, а в ранние годы сосна растёт очень быстро. <br>
+                                ⠀ Открытое солнечное место и дренированная почва с умеренной влажностью будут благоприятно способствовать росту растения. Конец апреля - начало мая — лучшее время для посадки чёрной сосны. <br>
+                                ⠀ Перед приобретением саженца нужно предварительно подготовить лунку, на дно которой насыпать 20 см дренажа (керамзит или любой подручный материал). Плодородную землю смешать с торфом и песком. <br>
+                                ⠀ Первый месяц после посадки черную сосну поливать 1 раз в неделю, далее — только при длительной засухе и то первые 2 года. Взрослое же дерево в поливе не нуждается.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tuya_little_chempion_60-80" data-path="step14" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#tuya_little_chempion_60-80">
+                        <img data-img="step14" class="catalog__card-img" src="../img/product-img/toyLlittleChempion.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step14" class="name-box">
+                        <div data-link="step14" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Туя «Литл Чемпион» высотой 60-80 см</div>
+                        <div class="card-cost">3 500,00 p.</div>
+                        <div data-text="step14" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🌲 Это компактный хвойный кустарник, обладающий густой и округлой кроной. К 10 годам размер растения достигает 0,5 м в диаметре. <br>
+                                ⠀ ☘️ Крона кустарника рыхлая, ветви прямые. Во время вегетационного периода цвет листвы зеленый, но к зиме он становится бронзовым или коричневым. <br>
+                                ⠀ 👨‍🌾 Данный вид туи предпочитает влажный климат, солнечные участки, защищенные от ветра, с плодородной дренированной почвой, кислотностью pH 4,5-6,0, но также хорошо растёт в слегка затенённых местах. Устойчив к морозам, ветрам, а также городским условиям. <br>
+                                ⠀ 💦 После посадки туя нуждается в регулярном поливе: около одного раза в неделю одним ведром воды на взрослое растение. Туя испаряет очень много влаги, поэтому хорошо отзывается на полив и дождевание. <br>
+                                ⠀ ☝️Кустарник часто используется как в одиночных, так и в групповых посадках. Его высаживают в горшки или контейнеры на террасах, вдоль садовых дорожек.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="el_edit_60-80" data-path="step15" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#el_edit_60-80">
+                        <img data-img="step15" class="catalog__card-img" src="../img/product-img/elEdit.jpg" alt="">
+                    </a>
+                    <div data-target="step15" class="name-box">
+                        <div data-link="step15" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Ель "Эдит" С7,5 высота 60-80 см</div>
+                        <div class="card-cost">2 800,00 p.</div>
+                        <div data-text="step15" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🌳 Ель Глаука — это декоративное хвойное растение. Крона конической формы. Особенностью ели является то, что взрослое растение приобретает серебристо-голубую окраску, за что она и получила своё название— "голубая ель". <br>
+                                ⠀ ☘ Место для посадки должно быть подальше от грунтовых вод. Необходимо сделать дренажный слой толщиной 15-20 см, из песка или битого кирпича. <br>
+                                ⠀ 💦 Ели не любят сухую жаркую погоду, поэтому летом их необходимо поливать раз в неделю, примерно по 10-12 л на дерево. ⠀</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tuya_little_chempion_v_gorshke60" data-path="step22" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#tuya_little_chempion_v_gorshke60">
+                        <img data-img="step22" class="catalog__card-img" src="../img/product-img/tuya_little_60-80.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step22" class="name-box">
+                        <div data-link="step22" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Туя «Литл Чемпион» в контейнере С5, высотой 60-80 см</div>
+                        <div class="card-cost">3 500 p.</div>
+                        <div data-text="step22" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🌲 Это компактный хвойный кустарник, обладающий густой и округлой кроной. К 10 годам размер растения достигает 0,5 м в диаметре. <br>
+                                ☘️ Крона кустарника рыхлая, ветви прямые. Во время вегетационного периода цвет листвы зеленый, но к зиме он становится бронзовым или коричневым. <br>
+                                👨‍🌾 Данный вид туи предпочитает влажный климат, солнечные участки, защищенные от ветра, с плодородной дренированной почвой, кислотностью pH 4,5-6,0, но также хорошо растёт в слегка затенённых местах. Устойчив к морозам, ветрам, а также городским условиям. <br>
+                                💦 После посадки туя нуждается в регулярном поливе: около одного раза в неделю одним ведром воды на взрослое растение. Туя испаряет очень много влаги, поэтому хорошо отзывается на полив и дождевание. <br>
+                                ☝️Кустарник часто используется как в одиночных, так и в групповых посадках. Его высаживают в горшки или контейнеры на террасах, вдоль садовых дорожек.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="el_glpboza_0,6" data-path="step24" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#el_glpboza_0,6">
+                        <img data-img="step24" class="catalog__card-img" src="../img/product-img/el_globoza-0.6.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step24" class="name-box">
+                        <div data-link="step24" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Ель "Глобоза" штамб 0,6 м</div>
+                        <div class="card-cost">12 000 p.</div>
+                        <div data-text="step24" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🌳 Ель Глаука — это декоративное хвойное растение. Крона конической формы. Особенностью ели является то, что взрослое растение приобретает серебристо-голубую окраску, за что она и получила своё название— "голубая ель". <br>
+                                ☘ Место для посадки должно быть подальше от грунтовых вод. Необходимо сделать дренажный слой толщиной 15-20 см, из песка или битого кирпича. <br>
+                                💦 Ели не любят сухую жаркую погоду, поэтому летом их необходимо поливать раз в неделю, примерно по 10-12 л на дерево.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="el_pungens_1-1,2" data-path="step28" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#el_pungens_1-1,2">
+                        <img data-img="step28" class="catalog__card-img" src="../img/product-img/el_pungens_1-1.2m.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step28" class="name-box">
+                        <div data-link="step28" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Ель "Пунгенс" С25 высотой 1,00-1,20 м</div>
+                        <div class="card-cost">8 000 p.</div>
+                        <div data-text="step28" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🌳 Ель Глаука — это декоративное хвойное растение. Крона конической формы. Особенностью ели является то, что взрослое растение приобретает серебристо-голубую окраску, за что она и получила своё название— "голубая ель". <br>
+                                ☘ Место для посадки должно быть подальше от грунтовых вод. Необходимо сделать дренажный слой толщиной 15-20 см, из песка или битого кирпича. <br>
+                                💦 Ели не любят сухую жаркую погоду, поэтому летом их необходимо поливать раз в неделю, примерно по 10-12 л на дерево.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="el_globoza_0,8" data-path="step35" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#el_globoza_0,8">
+                        <img data-img="step35" class="catalog__card-img" src="../img/product-img/el-globoza_0.8m.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step35" class="name-box">
+                        <div data-link="step35" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Ель "Глобоза" штамб 0,8 м</div>
+                        <div class="card-cost">18 000 p.</div>
+                        <div data-text="step35" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span"> 🌳 Ель Глаука — это декоративное хвойное растение. Крона конической формы. Особенностью ели является то, что взрослое растение приобретает серебристо-голубую окраску, за что она и получила своё название— "голубая ель". <br>
+                                ☘ Место для посадки должно быть подальше от грунтовых вод. Необходимо сделать дренажный слой толщиной 15-20 см, из песка или битого кирпича. <br>
+                                💦 Ели не любят сухую жаркую погоду, поэтому летом их необходимо поливать раз в неделю, примерно по 10-12 л на дерево.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="el_globoza_shtab_1" data-path="step36" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#el_globoza_shtab_1">
+                        <img data-img="step36" class="catalog__card-img" src="../img/product-img/el-globoza_0.8m.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step36" class="name-box">
+                        <div data-link="step36" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Ель "Глобоза" штамб 1 м</div>
+                        <div class="card-cost">32 000 p.</div>
+                        <div data-text="step36" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🌳 Ель Глаука — это декоративное хвойное растение. Крона конической формы. Особенностью ели является то, что взрослое растение приобретает серебристо-голубую окраску, за что она и получила своё название— "голубая ель". <br>
+                                ☘ Место для посадки должно быть подальше от грунтовых вод. Необходимо сделать дренажный слой толщиной 15-20 см, из песка или битого кирпича. ⠀<br>
+                                💦 Ели не любят сухую жаркую погоду, поэтому летом их необходимо поливать раз в неделю, примерно по 10-12 л на дерево.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tuya_shar_golden_glob_1" data-path="step37" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#tuya_shar_golden_glob_1">
+                        <img data-img="step37" class="catalog__card-img"
+                             src="../img/product-img/tuya-golden-glob_1m.jpg" alt="">
+                    </a>
+                    <div data-target="step37" class="name-box">
+                        <div data-link="step37" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Туя шар Голоден Глоб С35 1,00 м</div>
+                        <div class="card-cost">12 000 p.</div>
+                        <div data-text="step37" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">💖 Понравилось растение? Тогда узнавайте подробности приобретения, доставки, посадки и ухода! <br>
+                                👆Пишите сообщения или звоните по телефону в шапке профиля @green_season.ru Мы всегда готовы помочь и ответим на любые Ваши вопросы! <br>
+                                ⠀ 📲 +7 (495) 926-09-90</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="el_nediformis_0,6-0,8" data-path="step38" class="catalog__card">
+                    <a class="d-flex justify-content-center" href="#el_nediformis_0,6-0,8">
+                        <img data-img="step38" class="catalog__card-img"
+                             src="../img/product-img/el-nediformis_0.6m-diametr_0.8m.jpg" alt="">
+                    </a>
+                    <div data-target="step38" class="name-box">
+                        <div data-link="step38" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Ель "Недиформис" С40 высота 0,6 м диаметр 0,8 м</div>
+                        <div class="card-cost">14 000 p.</div>
+                        <div data-text="step38" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span"> 💖 Понравилось растение? Тогда узнавайте подробности приобретения, доставки, посадки и ухода! <br>
+                                👆Пишите сообщения или звоните по телефону в шапке профиля @green_season.ru Мы всегда готовы помочь и ответим на любые Ваши вопросы! <br>
+                                ⠀ 📲 +7 (495) 926-09-90</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <h2 class="text_adr">Мы находимся</h2>
+            <div class="footer-adress">
+                <div class="map__container">
+                    <div class="conttainer__info">
+
+                        <strong class="info-footer">Контактная информация
+                            "Зеленый Сезон" <br>
+                            Черная Грязь,9 Московская область, Россия <br>
+                            Ежедневно с 9:00 до 20:00 <br>
+                            +7 (495) 926-09-90 <br>
+                            greenseasonrus@gmail.com</strong>
+
+                    </div>
+                    <div class="map">
+                        <div id="map1"></div>
+                    </div>
+                </div>
+                <div class="map__container">
+                    <div class="conttainer__info">
+
+                        <strong class="info-footer">Питомник растений Зелёный сезон<br>
+                            Россия, рабочий посёлок Шаховская, <br> Рижское ш., вл1с1<br>
+                            Открыто c 9:00 до 19:00 <br>
+                            +7 (965) 106-55-59<br>
+                            greenseasonrus@gmail.com</strong>
+
+                    </div>
+                    <div class="map">
+                        <div id="map2"></div>
+                    </div>
+
+                </div>
+
+
+                <script async defer crossorigin="anonymous"
+                        src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0"
+                        nonce="Nf5Lp7Ee"></script>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+<!-- ##### Main Content Wrapper End ##### -->
+
+<!-- ##### Newsletter Area Start ##### -->
+<section class="newsletter-area section-padding-100-0">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Newsletter Text -->
+            <div class="col-12 col-lg-6 col-xl-7">
+                <div class="newsletter-text mb-100">
+                    <h2>Выгодное предложение <br><span>Скидка 5➕5=10%</span></h2>
+                    <p class="text-indent">Если вы наш подписчик, у вас уже есть 5% скидка. Но если вы активный
+                        покупатель, мы предлагаем вам получить ещё 5%
+                        <br>
+                    <p class="text-indent">5% всегда - если вы наш подписчик (просто покажите подписку на кассе)</p><br>
+                    <p class="text-indent">5% - за фото и отметку нас @green_season.ru в сториз в Instagram (покажите
+                        фото с отметкой на кассе)</p><br>
+                    <p class="text-indent">ИЛИ за фото с отметкой в Facebook</p><br>
+                    <p class="text-indent">ИЛИ за отзыв с ФОТО в Google или Яндекс (покажите отзыв)</p>
+                    </p>
+                </div>
+            </div>
+            <!-- Newsletter Form -->
+            <div class="col-12 col-lg-6 col-xl-5">
+                <div class="newsletter-form mb-100">
+                    <form action="#" method="post">
+                        <label>
+                            <input type="email" name="email" class="nl-email" placeholder="Ваш E-mail">
+                        </label>
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### Newsletter Area End ##### -->
+
+<!-- ##### Footer Area Start ##### -->
+<footer class="footer_area clearfix">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Single Widget Area -->
+            <div class="col-12 col-lg-4">
+                <div class="single_widget_area">
+                    <!-- Logo -->
+                    <div class="logo logo_footer">
+                        <img class="logo_img logo_img_footer " src="../img/core-img/logo_footer.svg" alt="logo">
+                        <a href="../index.html"><span class="logo_name logo_name_footer">ЗЕЛЁНЫЙ-<br>СЕЗОН</span> </a>
+                    </div>
+                    <!-- Copywrite Text -->
+                </div>
+            </div>
+            <!-- Single Widget Area -->
+            <div class="col-12 col-lg-8">
+                <div class="single_widget_area">
+                    <!-- Footer Menu -->
+                    <div class="footer_menu">
+                        <nav class="navbar navbar-expand-lg justify-content-end">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#footerNavContent" aria-controls="footerNavContent"
+                                    aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="footerNavContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="../index.html">Главная</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="hvoynie.html">Каталог</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../product-details.html">Оплата и доставка</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ##### Footer Area End ##### -->
+
+<!-- ##### jQuery (Necessary for All JavaScript Plugins) ##### -->
+<script src="../js/jquery/jquery-2.2.4.min.js"></script>
+<!-- Popper js -->
+<script src="../js/popper.min.js"></script>
+<!-- Bootstrap js -->
+<script src="../js/bootstrap.min.js"></script>
+<!-- Plugins js -->
+<script src="../js/plugins.js"></script>
+<!-- Active js -->
+<script src="../js/active.js"></script>
+<script src="js.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,620 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+          content="Зеленый Сезон - Садовый центр - Питомник растений -">
+    <meta name="author" content="Zhekka Ivanchik">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Зелёный Сезон - Садовый центр - Питомник растений</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="../img/core-img/favicon.svg" type="image/svg">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="../css/core-style.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=18b74fc3-2813-4dbe-bcda-fcbc5da0c747&lang=ru_RU"
+            type="text/javascript">
+    </script>
+
+    <script type="text/javascript">
+        ymaps.ready(init);
+
+        function init() {
+            var myMap = new ymaps.Map("map1", {
+                    center: [56, 37.3],
+                    zoom: 11
+                },
+                {
+                    autoFitToViewport: 'always',
+                    searchControlProvider: 'yandex#search'
+                }
+            );
+
+            myMap.container.fitToViewport();
+
+
+            myGeoObject = new ymaps.GeoObject({
+                // Описание геометрии.
+                geometry: {
+                    type: "Point",
+                    coordinates: [55.974673, 37.313038]
+                },
+                // Свойства.
+                properties: {
+                    // Контент метки.
+                    iconContent: 'Мы',
+                    hintContent: 'Зеленый Сезон'
+                }
+            })
+            myMap.geoObjects
+                .add(myGeoObject)
+
+        }
+
+    </script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+
+        function init() {
+            var myMap = new ymaps.Map("map2", {
+                    center: [56.037, 35.5496],
+                    zoom: 13
+                },
+                {
+                    autoFitToViewport: 'always',
+                    searchControlProvider: 'yandex#search'
+                }
+            );
+
+            myMap.container.fitToViewport();
+
+
+            myGeoObject = new ymaps.GeoObject({
+                // Описание геометрии.
+                geometry: {
+                    type: "Point",
+                    coordinates: [56.037030, 35.552633]
+                },
+                // Свойства.
+                properties: {
+                    // Контент метки.
+                    iconContent: 'Мы',
+                    hintContent: 'Зеленый Сезон'
+                }
+            })
+            myMap.geoObjects
+                .add(myGeoObject)
+
+        }
+
+    </script>
+    <style>
+        #map1, #map2 {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+<!-- Search Wrapper Area Start -->
+<div class="search-wrapper section-padding-100">
+    <div class="search-close">
+        <i class="fa fa-close" aria-hidden="true"></i>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="search-content">
+                    <form action="#" method="get">
+                        <input type="search" name="search" id="search" placeholder="Что будем искать ?">
+                        <button type="submit"><img src="../img/core-img/search.png" alt=""></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Search Wrapper Area End -->
+
+<!-- ##### Main Content Wrapper Start ##### -->
+<div class="main-content-wrapper d-flex clearfix">
+
+    <!-- Mobile Nav (max width 767px)-->
+    <div class="mobile-nav">
+        <!-- Navbar Brand -->
+
+        <div class="amado-navbar-brand">
+            <div class="logo logo_header">
+                <img class="logo_img logo_img_header " src="../img/core-img/logo.svg" alt="logo">
+                <a href="../index.html"><span class="logo_name logo_name_header">ЗЕЛЁНЫЙ-<br>СЕЗОН</span> </a>
+            </div>
+        </div>
+        <div class="social-info d-flex justify-content-between">
+            <a class="seti" target="_blank" href="https://www.instagram.com/green_season.ru/"><i
+                    class="ffa fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="seti" target="_blank" href="https://facebook.com/greenseasonsheremetjevo/"><i
+                    class="ffa fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="seti" target="_blank" href="https://vk.com/greenseasonru"><i class="ffa fa fa-vk"
+                                                                                   aria-hidden="true"></i></a>
+        </div>
+        <!-- Navbar Toggler -->
+        <div class="amado-navbar-toggler">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <!-- Header Area Start -->
+    <header class="header-area clearfix">
+        <!-- Close Icon -->
+        <div class="nav-close">
+            <i class="fa fa-close" aria-hidden="true"></i>
+        </div>
+        <!-- Logo -->
+        <div class="logo">
+            <img class="logo_img" src="../img/core-img/logo.svg" alt="logo">
+            <a href="../index.html"><span class="logo_name">ЗЕЛЁНЫЙ-<br>СЕЗОН</span> </a>
+        </div>
+        <!--            Header info-->
+        <div>
+            <h4 class="text-black text1">Садовый центр</h4>
+            <p class="text-muted text2">
+                Режим работы: Пн-Вс: с 9:00 до 20:00
+                <br>
+                Позвоните нам: <br> +7 (495) 926-09-90</p>
+        </div>
+        <!-- Amado Nav -->
+        <nav class="amado-nav">
+            <ul>
+                <li><a class="font-weight-bold" href="../index.html">Главная</a></li>
+                <li><a class="font-weight-bold" href="../product-details.html">Оплата и доставка</a></li>
+                <li class="dropdown show">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Каталог
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item item" href="hvoynie.html">Хвойные растения</a>
+                        <a class="dropdown-item item" href="listvennie.html">Лиственные растения</a>
+                        <a class="dropdown-item item" href="kustarniki.html">Кустарники</a>
+                        <a class="dropdown-item item" href="plodovie.html">Плодовые растения</a>
+                        <a class="dropdown-item item" href="rozi.html">Розы</a>
+                        <a class="dropdown-item item" href="mnogoletniki.html">Многолетники</a>
+                    </div>
+                </li>
+                <!--                    <li><a href="cart.html">Cart</a></li>-->
+                <!--                    <li><a href="checkout.html">Checkout</a></li>-->
+            </ul>
+        </nav>
+        <!-- Cart Menu -->
+        <div class="cart-fav-search mb-100">
+            <a href="#" class="search-nav"><img src="../img/core-img/search.png" alt=""> Search</a>
+        </div>
+        <!-- Social Button -->
+        <div class="social-info d-flex justify-content-between">
+            <a target="_blank" href="https://www.instagram.com/green_season.ru/"><i class="fa fa-instagram"
+                                                                                    aria-hidden="true"></i></a>
+            <a target="_blank" href="https://facebook.com/greenseasonsheremetjevo/"><i class="fa fa-facebook"
+                                                                                       aria-hidden="true"></i></a>
+            <a target="_blank" href="https://vk.com/greenseasonru"><i class="fa fa-vk" aria-hidden="true"></i></a>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+
+    <div class="amado_product_area section-padding-100">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="product-topbar d-xl-flex align-items-end justify-content-between">
+                        <!-- Total Products -->
+                        <div class="total-products">
+                            <h1>Кустарники</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catalog row">
+
+                <!-- Single Product Area -->
+
+                <div id="spirea_japan_antoni-vaterer" data-path="step12" class="catalog__card">
+                    <a href="#spirea_japan_antoni-vaterer">
+                        <img data-img="step12" class="catalog__card-img"
+                             src="../img/product-img/spireaAntoniVaterer.jpg" alt="">
+                    </a>
+                    <div data-target="step12" class="name-box">
+                        <div data-link="step12" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Спирея Японская "Антони Ватерер" в контейнере</div>
+                        <div class="card-cost">850,00 p.</div>
+                        <div data-text="step12" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">Спирея — это кустарник, который привлекает садоводов своим пышным цветением, а также эффектной окраской листьев и соцветий. ⠀ <br>
+                                Виды спиреи делятся на те, которые цветут весной, и те, которые цветут летом. Посадку лучше всего совершать в сентябре, предпочтительнее в дождливую или пасмурную погоду. Весной же можно сажать только летнецветущие виды. ⠀ <br>
+                                Один из наиболее популярных сортов спиреи — сорт "Антони Ватерер". Особенностью данного кустарника являются темно-зеленые листья и ярко-малиновые соцветия. Цветки ярко-розового или ярко-малинового цвета. Сорт цветёт со второй половины июня по сентябрь. ⠀ <br>
+                                Спирею также любят за неприхотливость и выносливость. Почву для посадки нужно выбрать рыхлую, плодородную, состоящую из дерновой или листовой земли с добавлением торфа и песка. ⠀ <br>
+                                У видов, цветущих ранней весной, обрезают только подмороженные за зиму кончики. Побеги у видов, цветущих летом, обрезают каждую весну, еще до появления почек. ⠀ <br>
+                                Полив совершают в засушливый сезон. Необходимо заливать по 15 литров воды на каждый куст 2 раза в месяц.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="deren_elegantisima_1-1,2" data-path="step42" class="catalog__card">
+                    <a href="#deren_elegantisima_1-1,2">
+                        <img data-img="step42" class="catalog__card-img"
+                             src="../img/product-img/deren-elegantisma_1-1.2m.jpg" alt="">
+                    </a>
+                    <div data-target="step42" class="name-box">
+                        <div data-link="step42" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Дёрен Элегантиссима С15, 1,00-1,20 м</div>
+                        <div class="card-cost">3 500 p.</div>
+                        <div data-text="step42" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🍃 Элегантиссима, также известная как дёрен белый Аргентеомаргината, получила своё название благодаря элегантному внешнему виду. Цвести куст начинает на третий год, а живет больше 50 лет. ⠀<br>
+                                ☘ Отличительной чертой сорта являются листья. Они слегка морщинистые, серо-зелёного цвета, с широкой белой полосой. Снизу листья сероватые. Осенью элегантиссима окраску листьев практически не меняет. ⠀ <br>
+                                👨‍🌾 Дёрен не требует особого ухода: растение хорошо переносит морозы и весной не подмокает в талой воде. Молодое растение нужно оберегать от сорняков. ⠀ <br>
+                                💦 При поливе за один раз выливают по 1,5-2 ведра под один куст. Растение также довольно устойчиво к болезням и вредителям. ⠀ <br>
+                                ☝️Кроне растения можно легко придать нужную форму, поэтому дёрен часто используют в качестве живой изгороди.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="veygela_1-1,2" data-path="step25" class="catalog__card">
+                    <a href="#veygela_1-1,2">
+                        <img data-img="step25" class="catalog__card-img" src="../img/product-img/veygela_1-1.2m.jpg"
+                             alt="">
+                    </a>
+                    <div data-target="step25" class="name-box">
+                        <div data-link="step25" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Вейгела 1,0-1,2 м</div>
+                        <div class="card-cost">3 000 p.</div>
+                        <div data-text="step25" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">Это очень эффектный и красивый кустарник, которым вы точно удивите ваших соседей, ведь его редко можно встретить в садах и на дачных участках. ⠀ <br>
+                                При хороших условиях растение цветёт дважды за сезон. Начинает цвести в конце мая – начале июня, продолжительность – 3 – 4 недели. Второе цветение возможно в конце лета – начале осени, однако его сроки у разных видов и сортов могут немного отличаться. ⠀ <br>
+                                Вейгела — неприхотливая культура, но стоит учитывать ее некоторые особенности при посадке. Высаживать растение нужно весной (март-апрель) или осенью (до морозов), а место лучше всего подбирать на хорошо освещенных участках, защищённое от мощных ветров и потоков воздуха, особенно северных. ⠀ <br>
+                                Земля должна быть питательной, легкой и водопроницаемой. Природные виды вейгелы предпочитают расти на грунтах со слабокислой реакцией (рН 5,5-6,5). ⠀ <br>
+                                Следите, чтобы земля сильно не пересыхала, ведь это препятствует хорошему развитию растений. Помните, что кустарник нуждается в регулярном поливе.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="beresklet_kompaktus_0,8-1,2" data-path="step39" class="catalog__card">
+                    <a href="#beresklet_kompaktus_0,8-1,2">
+                        <img data-img="step39" class="catalog__card-img"
+                             src="../img/product-img/Berecklet-kompaktus_0.8-1.2m.jpg" alt="">
+                    </a>
+                    <div data-target="step39" class="name-box">
+                        <div data-link="step39" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Бересклет Компактус С15 0.8-1.2 м</div>
+                        <div class="card-cost">7 000 p.</div>
+                        <div data-text="step39" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">💖 Понравилось растение? Тогда узнавайте подробности приобретения, доставки, посадки и ухода! ⠀ <br>
+                                👆Пишите сообщения или звоните по телефону в шапке профиля @green_season.ru Мы всегда готовы помочь и ответим на любые Ваши вопросы! ⠀ <br>
+                                📲 +7 (495) 926-09-90 </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="beresklet_kompaktus_1,4" data-path="step43" class="catalog__card">
+                    <a href="#beresklet_kompaktus_1,4">
+                        <img data-img="step43" class="catalog__card-img"
+                             src="../img/product-img/beresklet-kompaktus_1.4m.jpg" alt="">
+                    </a>
+                    <div data-target="step43" class="name-box">
+                        <div data-link="step43" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Бересклет Компактус С120 1.4 м</div>
+                        <div class="card-cost">32 000 p.</div>
+                        <div data-text="step43" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🌹Бересклет — невысокий медленнорастущий кустарник, с плотной, широкоокруглой, развлетвленной кроной, диаметр которой достигает до 2 м. ⠀ <br>
+                                ☘️ Листья широко овальной формы с отогнутыми вниз кончиками и темно-зелёного цвета. Осенью окраска листьев становится карминно-красной или насыщенно-розовой. Цветки зеленовато-желтые, собраны по 3 штуки в зонтичных. Цветет кустарник в мае-июне. ⠀ <br>
+                                👨‍🌾 Светолюбив, но также неплохо растёт в полутени, но следует помнить, что при выращивании в тени, кустарник теряет красочную осеннюю окраску листьев. Любит плодородные почвы. Не переносит уплотнения почв. ⠀ <br>
+                                💦 Кустарник предпочитает умеренный полив. В регулярном увлажнении почвы нуждаются лишь молодые экземпляры, а также растения в засушливый период. Не допускайте переувлажнения или пересушивания грунта. ⠀ <br>
+                                ☝️В начале весны проводится санитарная обрезка. Нужно удалить все поврежденные сухие ветви. Также подрезают торчащие и слишком длинные побеги. ⠀</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="beresklet_kompaktus_0,6-0,8" data-path="step44" class="catalog__card">
+                    <a href="#beresklet_kompaktus_0,6-0,8">
+                        <img data-img="step44" class="catalog__card-img"
+                             src="../img/product-img/beresklet-kompaktus_0.6-0.8m.jpg" alt="">
+                    </a>
+                    <div data-target="step44" class="name-box">
+                        <div data-link="step44" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Бересклет Компактус С10 0.6-0.8 м</div>
+                        <div class="card-cost">3 500 p.</div>
+                        <div data-text="step44" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span"> 🌹Бересклет — невысокий медленнорастущий кустарник, с плотной, широкоокруглой, развлетвленной кроной, диаметр которой достигает до 2 м. ⠀ <br>
+                                ☘️ Листья широко овальной формы с отогнутыми вниз кончиками и темно-зелёного цвета. Осенью окраска листьев становится карминно-красной или насыщенно-розовой. Цветки зеленовато-желтые, собраны по 3 штуки в зонтичных. Цветет кустарник в мае-июне. ⠀<br>
+                                👨‍🌾 Светолюбив, но также неплохо растёт в полутени, но следует помнить, что при выращивании в тени, кустарник теряет красочную осеннюю окраску листьев. Любит плодородные почвы. Не переносит уплотнения почв. ⠀ <br>
+                                💦 Кустарник предпочитает умеренный полив. В регулярном увлажнении почвы нуждаются лишь молодые экземпляры, а также растения в засушливый период. Не допускайте переувлажнения или пересушивания грунта. ⠀ <br>
+                                ☝️В начале весны проводится санитарная обрезка. Нужно удалить все поврежденные сухие ветви. Также подрезают торчащие и слишком длинные побеги. ⠀</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="veygela_40-50" data-path="step13" class="catalog__card">
+                    <a href="#veygela_40-50">
+                        <img data-img="step13" class="catalog__card-img" src="../img/product-img/veygela.jpg" alt="">
+                    </a>
+                    <div data-target="step13" class="name-box">
+                        <div data-link="step13" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Вейгела 40-60 см</div>
+                        <div class="card-cost">1 500,00 p.</div>
+                        <div data-text="step13" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span"> Это очень эффектный и красивый кустарник, которым вы точно удивите ваших соседей, ведь его редко можно встретить в садах и на дачных участках. ⠀ <br>
+                                При хороших условиях растение цветёт дважды за сезон. Начинает цвести в конце мая – начале июня, продолжительность – 3 – 4 недели. Второе цветение возможно в конце лета – начале осени, однако его сроки у разных видов и сортов могут немного отличаться. ⠀ <br>
+                                Вейгела — неприхотливая культура, но стоит учитывать ее некоторые особенности при посадке. Высаживать растение нужно весной (март-апрель) или осенью (до морозов), а место лучше всего подбирать на хорошо освещенных участках, защищённое от мощных ветров и потоков воздуха, особенно северных. ⠀ <br>
+                                Земля должна быть питательной, легкой и водопроницаемой. Природные виды вейгелы предпочитают расти на грунтах со слабокислой реакцией (рН 5,5-6,5). ⠀ <br>
+                                Следите, чтобы земля сильно не пересыхала, ведь это препятствует хорошему развитию растений. Помните, что кустарник нуждается в регулярном поливе.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="deren_elegantisima_60-80" data-path="step29" class="catalog__card">
+                    <a href="#deren_elegantisima_60-80">
+                    <img data-img="step29" class="catalog__card-img"
+                         src="../img/product-img/deren_elegan_60-80sm.jpg" alt="">
+                    </a>
+                    <div data-target="step29" class="name-box">
+                        <div data-link="step29" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Дёрен Элегантиссима С7,5, 60-80 см</div>
+                        <div class="card-cost">1 500 p.</div>
+                        <div data-text="step29" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🍃 Элегантиссима, также известная как дёрен белый Аргентеомаргината, получила своё название благодаря элегантному внешнему виду. Цвести куст начинает на третий год, а живет больше 50 лет. ⠀ <br>
+                                ☘ Отличительной чертой сорта являются листья. Они слегка морщинистые, серо-зелёного цвета, с широкой белой полосой. Снизу листья сероватые. Осенью элегантиссима окраску листьев практически не меняет. ⠀ <br>
+                                👨‍🌾 Дёрен не требует особого ухода: растение хорошо переносит морозы и весной не подмокает в талой воде. Молодое растение нужно оберегать от сорняков. ⠀ <br>
+                                💦 При поливе за один раз выливают по 1,5-2 ведра под один куст. Растение также довольно устойчиво к болезням и вредителям. ⠀ <br>
+                                ☝️Кроне растения можно легко придать нужную форму, поэтому дёрен часто используют в качестве живой изгороди.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="deren_elegantisima_60" data-path="step19" class="catalog__card">
+                    <a href="#deren_elegantisima_60">
+                    <img data-img="step19" class="catalog__card-img" src="../img/product-img/DerenElegant.jpg"
+                         alt="">
+                    </a>
+                    <div data-target="step19" class="name-box">
+                        <div data-link="step19" class="card__logo link_active">
+                            <a href="../index.html" class="d-flex align-items-center">
+                                <img class="header__logo_svg" src="../img/core-img/logo.svg" alt="logo" width="60"
+                                     height="60"
+                                     title="green-season.ru">
+                                <strong class="color_name">Зелёный Сезон</strong>
+                            </a>
+                        </div>
+                        <div class="card__name">Дёрен Элегантиссима С3, 60 см</div>
+                        <div class="card-cost">450,00 p.</div>
+                        <div data-text="step19" class="active_description none">
+                            <h4>Подробная информация</h4>
+                            <span class="span">🍃 Элегантиссима, также известная как дёрен белый Аргентеомаргината, получила своё название благодаря элегантному внешнему виду. Цвести куст начинает на третий год, а живет больше 50 лет. ⠀ <br>
+                                ☘ Отличительной чертой сорта являются листья. Они слегка морщинистые, серо-зелёного цвета, с широкой белой полосой. Снизу листья сероватые. Осенью элегантиссима окраску листьев практически не меняет. ⠀ <br>
+                                👨‍🌾 Дёрен не требует особого ухода: растение хорошо переносит морозы и весной не подмокает в талой воде. Молодое растение нужно оберегать от сорняков. ⠀ <br>
+                                💦 При поливе за один раз выливают по 1,5-2 ведра под один куст. Растение также довольно устойчиво к болезням и вредителям. ⠀ <br>
+                                ☝️Кроне растения можно легко придать нужную форму, поэтому дёрен часто используют в качестве живой изгороди.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <h2 class="text_adr">Мы находимся</h2>
+            <div class="footer-adress">
+                <div class="map__container">
+                    <div class="conttainer__info">
+
+                        <strong class="info-footer">Контактная информация
+                            "Зеленый Сезон" <br>
+                            Черная Грязь,9 Московская область, Россия <br>
+                            Ежедневно с 9:00 до 20:00 <br>
+                            +7 (495) 926-09-90 <br>
+                            greenseasonrus@gmail.com</strong>
+
+                    </div>
+                    <div class="map">
+                        <div id="map1"></div>
+                    </div>
+                </div>
+                <div class="map__container">
+                    <div class="conttainer__info">
+
+                        <strong class="info-footer">Питомник растений Зелёный сезон<br>
+                            Россия, рабочий посёлок Шаховская, <br> Рижское ш., вл1с1<br>
+                            Открыто c 9:00 до 19:00 <br>
+                            +7 (965) 106-55-59<br>
+                            greenseasonrus@gmail.com</strong>
+
+                    </div>
+                    <div class="map">
+                        <div id="map2"></div>
+                    </div>
+
+                </div>
+
+
+                <script async defer crossorigin="anonymous"
+                        src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0"
+                        nonce="Nf5Lp7Ee"></script>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+<!-- ##### Main Content Wrapper End ##### -->
+
+<!-- ##### Newsletter Area Start ##### -->
+<section class="newsletter-area section-padding-100-0">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Newsletter Text -->
+            <div class="col-12 col-lg-6 col-xl-7">
+                <div class="newsletter-text mb-100">
+                    <h2>Выгодное предложение <br><span>Скидка 5➕5=10%</span></h2>
+                    <p class="text-indent">Если вы наш подписчик, у вас уже есть 5% скидка. Но если вы активный
+                        покупатель, мы предлагаем вам получить ещё 5%
+                        <br>
+                    <p class="text-indent">5% всегда - если вы наш подписчик (просто покажите подписку на кассе)</p><br>
+                    <p class="text-indent">5% - за фото и отметку нас @green_season.ru в сториз в Instagram (покажите
+                        фото с отметкой на кассе)</p><br>
+                    <p class="text-indent">ИЛИ за фото с отметкой в Facebook</p><br>
+                    <p class="text-indent">ИЛИ за отзыв с ФОТО в Google или Яндекс (покажите отзыв)</p>
+                    </p>
+                </div>
+            </div>
+            <!-- Newsletter Form -->
+            <div class="col-12 col-lg-6 col-xl-5">
+                <div class="newsletter-form mb-100">
+                    <form action="#" method="post">
+                        <input type="email" name="email" class="nl-email" placeholder="Ваш E-mail">
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### Newsletter Area End ##### -->
+
+<!-- ##### Footer Area Start ##### -->
+<footer class="footer_area clearfix">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Single Widget Area -->
+            <div class="col-12 col-lg-4">
+                <div class="single_widget_area">
+                    <!-- Logo -->
+                    <div class="logo logo_footer">
+                        <img class="logo_img logo_img_footer " src="../img/core-img/logo_footer.svg" alt="logo">
+                        <a href="../index.html"><span class="logo_name logo_name_footer">ЗЕЛЁНЫЙ-<br>СЕЗОН</span> </a>
+                    </div>
+                    <!-- Copywrite Text -->
+                </div>
+            </div>
+            <!-- Single Widget Area -->
+            <div class="col-12 col-lg-8">
+                <div class="single_widget_area">
+                    <!-- Footer Menu -->
+                    <div class="footer_menu">
+                        <nav class="navbar navbar-expand-lg justify-content-end">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#footerNavContent" aria-controls="footerNavContent"
+                                    aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="footerNavContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="../index.html">Главная</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="hvoynie.html">Каталог</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../product-details.html">Оплата и доставка</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ##### Footer Area End ##### -->
+
+<!-- ##### jQuery (Necessary for All JavaScript Plugins) ##### -->
+<script src="../js/jquery/jquery-2.2.4.min.js"></script>
+<!-- Popper js -->
+<script src="../js/popper.min.js"></script>
+<!-- Bootstrap js -->
+<script src="../js/bootstrap.min.js"></script>
+<!-- Plugins js -->
+<script src="../js/plugins.js"></script>
+<!-- Active js -->
+<script src="../js/active.js"></script>
+<script src="js.js"></script>
+
+</body>
+
+</html>
